@@ -14,7 +14,7 @@ double verificarDatos(string mensaje) {
         cin >> valor;
 
         if (valor < 0) {
-            cout << "No se aceptan números negativos. Error";
+            cout << "No se aceptan numeros negativos. Error";
         }
     } while (valor < 0);
 
